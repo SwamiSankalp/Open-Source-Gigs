@@ -1,5 +1,6 @@
 ## Medusa Enhancement requests
 
+### Code
 1. [Support filtering price lists by customer groups](https://github.com/medusajs/medusa/issues/1286)
 2. [API: Complete a batch operation](https://github.com/medusajs/medusa/issues/1277)
 3. [API: Cancel a batch operation](https://github.com/medusajs/medusa/issues/1276)
@@ -20,3 +21,16 @@
 17. [Enhancement: Ability to use admin middleware in custom APIs](https://github.com/medusajs/medusa/issues/859)
 18. [Select discount.rule.valid_for products by collection, type, and tags](https://github.com/medusajs/medusa/issues/419)
 19. [Align POST /swaps and POST /returns payloads](https://github.com/medusajs/medusa/issues/386)
+
+### Non-Code (Blog)
+
+1. [Create an Ecommerce App with Medusa and React Native](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=73825e914cc440d0b5e2e942d9a291e4)
+2. [Integrate Medusa with x tool - a how-to guide](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=d17936d35e9441e9b95aec752bab638f)
+3. [Create an iOS Ecommerce App with Medusa](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=054a101c3b614daca6c1445c52c830fa)
+4. [Create an Android Ecommerce App with Medusa](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=0952677d26aa4ef6b07c791bd95e4bd0)
+5. [X issues Shopify Developers face](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=d3cce3fbc6cb43cfbbfa3508b9f80b6f)
+6. [Create an Ecommerce App with Flutter and Medusa](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=ac865d4ce2ff42d4934ee4c22a8c4619)
+7. [Build X Store with Medusa and Y](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=9d8aac77854241feb714094757493a06)
+8. [Integrate Discord Bot with Medusa](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=37c2f4fd75614558a0f158507f1a806c)
+9. [Integrate Medusa with Moosend for Order Notifications](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=77cdee010e8740b3b935fe3d6baacb99)
+10. [Integrate Stackbit into Next.js Starter with Medusa](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=6aa98565140243afb7fa2aec07ff97a5)
