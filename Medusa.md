@@ -10,7 +10,7 @@ All of the enhancement and feature requests for *[Medusa](https://medusajs.com/)
 We want to add support for filtering by customer groups. We should extend the `FitlerablePriceListProps` here to include a `customer_group_id?` field of type `string[]` which would include the list of customer group ids to filter by.
 
   - **Posted by**: *[@zakariaelas](https://github.com/zakariaelas)*
-  - **Status**: *Not Assigned*
+  - **Status**: https://img.shields.io/endpoint?url=https%3A%2F%2Fswaneflask-app.herokuapp.com%2F
   - **Standard**: *Non-paid*
   - **[Issue Link](https://github.com/medusajs/medusa/issues/1286)**
 
