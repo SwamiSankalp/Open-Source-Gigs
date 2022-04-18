@@ -1,36 +1,80 @@
-## Medusa Enhancement requests
+## Medusa Enhancement Requests
 
-### Code
-1. [Support filtering price lists by customer groups](https://github.com/medusajs/medusa/issues/1286)
-2. [API: Complete a batch operation](https://github.com/medusajs/medusa/issues/1277)
-3. [API: Cancel a batch operation](https://github.com/medusajs/medusa/issues/1276)
-3. [API: List batch operations](https://github.com/medusajs/medusa/issues/1275)
-4. [API: Get a batch job](https://github.com/medusajs/medusa/issues/1274)
-5. [API: Create a batch operation](https://github.com/medusajs/medusa/issues/1273)
-6. [WebSocket/Server sent events implementation](https://github.com/medusajs/medusa/issues/1270)
-7. [Update FileService to allow for protected uploads/downloads + streaming](https://github.com/medusajs/medusa/issues/1269)
-8. [Implement BatchJobService](https://github.com/medusajs/medusa/issues/1268)
-9. [Implement OrderExportHandler](https://github.com/medusajs/medusa/issues/1267)
-10. [Implement ProductExportHandler](https://github.com/medusajs/medusa/issues/1266)
-11. [Implement ProductImportHandler](https://github.com/medusajs/medusa/issues/1265)
-12. [Batch job *Handlers](https://github.com/medusajs/medusa/issues/1264)
-13. [Add endpoints for DiscountConditions](https://github.com/medusajs/medusa/issues/1157)
-14. [Add DELETE /store/auth to @medusajs/medusa-js](https://github.com/medusajs/medusa/issues/1094)
-15. [Add POST/DELETE /admin/collections/:id/products/batch endpoints to @medusajs/medusa-js and medusa-react](https://github.com/medusajs/medusa/issues/1089)
-16. [Move BasePaymentService to Typescript](https://github.com/medusajs/medusa/issues/1042)
-17. [Enhancement: Ability to use admin middleware in custom APIs](https://github.com/medusajs/medusa/issues/859)
-18. [Select discount.rule.valid_for products by collection, type, and tags](https://github.com/medusajs/medusa/issues/419)
-19. [Align POST /swaps and POST /returns payloads](https://github.com/medusajs/medusa/issues/386)
+All of the enhancement and feature requests for *[Medusa](https://medusajs.com/)* are listed here, and community can pick the ones they want to complete and be rewarded for completing them.
 
-### Non-Code (Blog)
+## Code Enhancement/Feature Requests
+---
 
-1. [Create an Ecommerce App with Medusa and React Native](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=73825e914cc440d0b5e2e942d9a291e4)
-2. [Integrate Medusa with x tool - a how-to guide](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=d17936d35e9441e9b95aec752bab638f)
-3. [Create an iOS Ecommerce App with Medusa](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=054a101c3b614daca6c1445c52c830fa)
-4. [Create an Android Ecommerce App with Medusa](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=0952677d26aa4ef6b07c791bd95e4bd0)
-5. [X issues Shopify Developers face](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=d3cce3fbc6cb43cfbbfa3508b9f80b6f)
-6. [Create an Ecommerce App with Flutter and Medusa](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=ac865d4ce2ff42d4934ee4c22a8c4619)
-7. [Build X Store with Medusa and Y](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=9d8aac77854241feb714094757493a06)
-8. [Integrate Discord Bot with Medusa](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=37c2f4fd75614558a0f158507f1a806c)
-9. [Integrate Medusa with Moosend for Order Notifications](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=77cdee010e8740b3b935fe3d6baacb99)
-10. [Integrate Stackbit into Next.js Starter with Medusa](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=6aa98565140243afb7fa2aec07ff97a5)
+**1. Support filtering price lists by customer groups**
+
+We want to add support for filtering by customer groups. We should extend the `FitlerablePriceListProps` here to include a `customer_group_id?` field of type `string[]` which would include the list of customer group ids to filter by.
+
+  - **Posted by**: *[@zakariaelas](https://github.com/zakariaelas)*
+  - **Status**: *Not Assigned*
+  - **Standard**: *Non-paid*
+  - **[Issue Link](https://github.com/medusajs/medusa/issues/1286)**
+
+---
+
+**2. API: Complete a batch operation**
+
+Completes a previously dry_run'ed job.
+
+```
+POST /admin/batch/:id/complete
+```
+**DoD**
+  - [ ] should be idempotent - i.e. if trying to complete a job that is currently processing the completion step then nothing should happen and endpoint should respond 200
+  - [ ] only your own jobs can be completed i.e. `req.user.id === batch.created_by` must be true
+  - [ ] should call `BatchJobService.complete` which in turn calls the underlying handler.
+  - [ ] Endpoint should not wait for the actual processing of the job to complete
+
+ - **Posted by**: *[@srindom](https://github.com/srindom)*
+ - **Status**: *Not Assigned*
+ - **Standard**: *Non-paid*
+ - **[Issue Link](https://github.com/medusajs/medusa/issues/1277)**
+
+---
+
+**3. API: Cancel a batch operation**
+
+ Cancels an operation that is in progress.
+
+```
+POST /admin/batch/:id/cancel
+```
+**DoD**
+ - [ ] endpoint should be idempotent - e.g. calling cancel on an already canceled job is allowed and responds with 200
+ - [ ] BatchJobs in a completed state should not be cancelable - should fail with 422
+ - [ ] Should call BatchJobService.cancel; which in turn potentially cancels the jobs in the worker that are currently being processed.
+ 
+ - **Posted by**: *[@srindom](https://github.com/srindom)*
+ - **Status**: *Not Assigned*
+ - **Standard**: *Non-paid*
+ - **[Issue Link](https://github.com/medusajs/medusa/issues/1276)**
+
+---
+
+**4. API: List batch operations**
+
+ Lists the BatchJobs created by the authenticated user.
+
+```
+GET /admin/batch
+
+Response
+- count
+- limit
+- offset
+- batch_jobs - { id, status, progress, ... }
+```
+**DoD**
+ - [ ] should respond with the batch jobs that are created by the user
+ - [ ] calls `BatchJobService.listAndCount`
+ 
+ - **Posted by**: *[@srindom](https://github.com/srindom)*
+ - **Status**: *Not Assigned*
+ - **Standard**: *Non-paid*
+ - **[Issue Link](https://github.com/medusajs/medusa/issues/1275)**
+
+---
