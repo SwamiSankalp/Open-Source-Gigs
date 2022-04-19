@@ -32,7 +32,7 @@ Typsense Version:
 Ubuntu 20.04
 
   - **Posted by**: *[@xpader](https://github.com/xpader)*
-  - **Status**: *Not assigned*
+  - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Ftypesense%2F576">
   - **Standard**: *Non-paid*
   - **[Issue Link](https://github.com/typesense/typesense/issues/576)**
 
@@ -62,7 +62,7 @@ curl "http://localhost:8108/collections/products/overrides/customize-apple" -X P
 curl "http://localhost:8108/collections/products/documents/search?q=apple&query_by=name&pinned_hits=422:1&filter_curated_hits=true"
 ```
  - **Posted by**: *[@jasonbosco](https://github.com/jasonbosco)*
- - **Status**: *Not Assigned*
+ - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Ftypesense%2F549">
  - **Standard**: *Non-paid*
  - **[Issue Link](https://github.com/typesense/typesense/issues/549)**
 
@@ -75,7 +75,7 @@ When curating documents it does not seem to be possible to set rules for filter_
 For example we would like to curate different document for search `search?q=hamburg&query_by=title&filter_by=language:en` and one where filter_by is `filter_by=language:de`.
  
  - **Posted by**: *[@mikran](https://github.com/mikran)*
- - **Status**: *Not Assigned*
+ - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Ftypesense%2F536">
  - **Standard**: *Non-paid*
  - **[Issue Link](https://github.com/typesense/typesense/issues/536)**
 
@@ -102,7 +102,7 @@ e.g.
 Apply overrides to an entire product category in combination with a query. So if the user searches for t-shirt and then filters by the material cotton you can apply overides to pin/hide/boost certain items.
  
  - **Posted by**: *[@aaroncueckermann](https://github.com/aaroncueckermann)*
- - **Status**: *Not Assigned*
+ - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Ftypesense%2F525">
  - **Standard**: *Non-paid*
  - **[Issue Link](https://github.com/typesense/typesense/issues/525)**
 
@@ -125,7 +125,7 @@ We can't create optional field if we want it to be indexed.
 Typsense Version: cloud.
  
  - **Posted by**: *[@panoet](https://github.com/panoet)*
- - **Status**: *Not Assigned*
+ - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Ftypesense%2F346">
  - **Standard**: *Non-paid*
  - **[Issue Link](https://github.com/typesense/typesense/issues/346)**
 
