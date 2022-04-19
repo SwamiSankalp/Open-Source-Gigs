@@ -1,35 +1,103 @@
-## Mobile Security Framework Enhancement Requests!
+# MobSF Enhancement Requests
 
-1. [Google Fonts fails to load in China](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1870) 
-2. [Find API keys/secrets by matching regex](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1843)  
-3. [Browse all files - MobSF/Mobile-Security](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1724) 
-4. [More granular settings split](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1697) 
-5. [Sticky horizontal scrollbar in code/xml views](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1693) 
-6. [Non root docker user](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1639) 
-7. [Responsive UI changes](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1569) 
-8. [Update EnligherJS](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1603) 
-9. [App Scores in Recent Page](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1526) 
-10. [Support non app directory for android source code](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1553) 
-11. [Specify version of Dataset used](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1357) 
-12. [Frida Memory Dump](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1431) 
-13. [iOS Dynamic Analysis](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1453) 
-14. [REST API Response format](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1356) 
-15. [Submit to VT](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1349) 
-16. [Apple CAR parser](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1271) 
-17. [Better handling of Info.plist in iOS Source](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1241)  
-18. [Marking Finding as False Positive](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1189) 
-19. [Support for Diffing, Remove False Positives, Report Missed Vulnerabilities](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/249) 
-20. [CSV Results ](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1155) 
-21. [MISP Project about IOC](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1147)  
-22. [Support Git Scanning](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1146) 
-23. [Dark mode](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1088) 
-24. [Android SCA Username and Path Disclosure](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/468) 
-25. [Code Graph](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/606) 
-26. [Detect Vulnerable Javascript Libraries in Hybrid Mobile Apps](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/368) 
-27. [Integrate Android unused permission flag (Yes/No) under the permission table](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/269) 
-28. [windows_static appxbundle](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/254) 
-29. [config.py used by USE_HOME needs to be updated in the background](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/355) 
-30. [Feature Request: Can we export the details in Excel Format.](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/248) 
-31. [Android: Dynamic Analysis: Exported Activity Tester to support intents.](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/135) 
-32. [Android: Enhancement : Edit Code, Save, Recompile and Intent Vulnerability POC Generation](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/110) 
-33. [Android Library Detection and Analysis](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1614) 
+Enhancement and feature requests for *[MoBSF](https://mobsf.github.io/docs/)* are listed here, and community can pick the ones they want to complete and be rewarded for completing them.
+
+## Code Enhancement/Feature Requests
+---
+
+**1. CSS file loading fail in China**
+
+the page loading time is more than 15 seconds.
+Because live-in China users do not access `fonts.googleapi.com` site.
+Could we put the font file in the code repository or use CDN?
+
+  - **Posted by**: *[@magaofei](https://github.com/magaofei)*
+  - **Status**: *Not assigned*
+  - **Standard**: *Non-paid*
+  - **[Issue Link](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1870)**
+
+---
+
+**2. Find API keys/secrets by matching regex**
+
+
+**If you're requesting a new feature/enhancement, explain why you'd like it to be added and it's importance.**
+
+We currently have a feature which find possible hardcoded secrets. But there could be false positives. So I am suggesting a feature which will use regex to find API keys. I currently have a command line program called dora which does exactly this. But would of course be very nice if this was implemented into this program so we'd get exact matches to those API keys/secrets.
+
+**Is your feature request related to a problem? Please describe.**
+It is not a problem.
+
+**Describe the solution you'd like**
+Use a list of regex that match certain API keys/secrets so they will be found without any false positives. I am willing to provide the regex patterns if needed.
+
+**Describe alternatives you've considered**
+I currently use my program called dora but if MobSF had this inbuilt, it would be ease my workflow.
+
+ - **Posted by**: *[@sdushantha](https://github.com/sdushantha)*
+ - **Status**: *Not Assigned*
+ - **Standard**: *Non-paid*
+ - **[Issue Link](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1843)**
+
+---
+
+**3. browse all files**
+
+ 
+**Is your feature request related to a problem? Please describe**.
+I would like to see the source code for other files besides java and smali, i.e. html. Or download binary files (images, shared objects and so on).
+
+**Describe the solution you'd like**
+Allow the browser access all sorts of files
+ 
+ - **Posted by**: *[@elig0n](https://github.com/elig0n)*
+ - **Status**: *Not Assigned*
+ - **Standard**: *Non-paid*
+ - **[Issue Link](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1724)**
+
+---
+
+**4. Split settings.py**
+
+ 
+**If you're requesting a new feature/enhancement, explain why you'd like it to be added and it's importance.**
+
+**Is your feature request related to a problem? Please describe.**
+`settings.py` hosts both required MobSF/Django config and local config.
+Each time MobSF version is updated, need to merge local settings (e.g., `USE_HOME`, DB config, `ALLOWED_HOSTS`) into the updated `settings.py`
+
+~/MobSF/config.py allows for customizing some values, but can't host Django settings.
+
+**Describe the solution you'd like**
+Split the file into settings.py and local_settings.py (ideally loaded from `~/.MobSF`).
+
+**Describe alternatives you've considered**
+Manual merge
+
+**Additional context**
+Django wiki about splitting settings: https://code.djangoproject.com/wiki/SplitSettings
+ 
+ - **Posted by**: *[@nelenkov](https://github.com/nelenkov)*
+ - **Status**: *Not Assigned*
+ - **Standard**: *Non-paid*
+ - **[Issue Link](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1697)**
+
+---
+
+**5. Sticky horizontal scrollbar in code/xml views**
+
+
+**Is your feature request related to a problem? Please describe.**
+When some lines exceed the viewport width inside the source and smali code views or the Manifest XML view, a horizontal scrollbar is shown.
+The problem is, it's all at the bottom of the view which forces the user to scroll all way down to adjust the horizontal scroll.
+This interrupts the workflow and is distracting because you have to guess what width is needed to view a specific part of the line.
+
+**Describe the solution you'd like**
+The horizontal scrollbar might be set to stick at the page bottom if it would be outside the viewport otherwise.
+ 
+ - **Posted by**: *[@serkonda7](https://github.com/serkonda7)*
+ - **Status**: *Not Assigned*
+ - **Standard**: *Non-paid*
+ - **[Issue Link](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1693)**
+
+---
