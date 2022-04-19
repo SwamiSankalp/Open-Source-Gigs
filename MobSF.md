@@ -12,7 +12,7 @@ Because live-in China users do not access `fonts.googleapi.com` site.
 Could we put the font file in the code repository or use CDN?
 
   - **Posted by**: *[@magaofei](https://github.com/magaofei)*
-  - **Status**: *Not assigned*
+  - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Fmobsf%2F1870">
   - **Standard**: *Non-paid*
   - **[Issue Link](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1870)**
 
@@ -35,7 +35,7 @@ Use a list of regex that match certain API keys/secrets so they will be found wi
 I currently use my program called dora but if MobSF had this inbuilt, it would be ease my workflow.
 
  - **Posted by**: *[@sdushantha](https://github.com/sdushantha)*
- - **Status**: *Not Assigned*
+ - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Fmobsf%2F1843">
  - **Standard**: *Non-paid*
  - **[Issue Link](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1843)**
 
@@ -51,7 +51,7 @@ I would like to see the source code for other files besides java and smali, i.e.
 Allow the browser access all sorts of files
  
  - **Posted by**: *[@elig0n](https://github.com/elig0n)*
- - **Status**: *Not Assigned*
+ - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Fmobsf%2F1724">
  - **Standard**: *Non-paid*
  - **[Issue Link](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1724)**
 
@@ -78,7 +78,7 @@ Manual merge
 Django wiki about splitting settings: https://code.djangoproject.com/wiki/SplitSettings
  
  - **Posted by**: *[@nelenkov](https://github.com/nelenkov)*
- - **Status**: *Not Assigned*
+ - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Fmobsf%2F1697">
  - **Standard**: *Non-paid*
  - **[Issue Link](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1697)**
 
@@ -96,7 +96,7 @@ This interrupts the workflow and is distracting because you have to guess what w
 The horizontal scrollbar might be set to stick at the page bottom if it would be outside the viewport otherwise.
  
  - **Posted by**: *[@serkonda7](https://github.com/serkonda7)*
- - **Status**: *Not Assigned*
+ - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Fmobsf%2F1693">
  - **Standard**: *Non-paid*
  - **[Issue Link](https://github.com/MobSF/Mobile-Security-Framework-MobSF/issues/1693)**
 
