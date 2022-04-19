@@ -1,7 +1,7 @@
 # Open-Source-Gigs
 
 Aviyel is on a mission to help Open Source projects sustain by creating communities around them and by incentivizing the contributors. 
-All of the enhancement and feature requests are listed here, and community can pick the ones they want to complete and be rewarded for completing them.
+All of the enhancement and feature requests are listed here, and community can pick the ones they want to complete and be rewarded for completing the same.
 
 If you are interested in Security and related topics, we have **MobSF** and **BoxyHQ**, both of which deal with Security and Authentication domains. You can look for **Docz** if you are a React developer. We have lightning-fast Search Engine **Typesense** while working on a Search UI. We have **Medusa** for those who work in the E-commerce domain. To enhance your customer experience, you can work on integrations, integrations, and integrations with **Chatwoot**.
 
