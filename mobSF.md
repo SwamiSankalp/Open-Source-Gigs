@@ -1,6 +1,6 @@
 # MobSF Enhancement Requests
 
-Enhancement and feature requests for *[MoBSF](https://mobsf.github.io/docs/)* are listed here, and community can pick the ones they want to complete and be rewarded for completing them.
+Enhancement and feature requests for *[MobSF](https://mobsf.github.io/docs/)* are listed here, and community can pick the ones they want to complete and be rewarded for completing them.
 
 ## Code Enhancement/Feature Requests
 ---
