@@ -10,7 +10,7 @@ All of the enhancement and feature requests for *[Medusa](https://medusajs.com/)
 We want to add support for filtering by customer groups. We should extend the `FitlerablePriceListProps` here to include a `customer_group_id?` field of type `string[]` which would include the list of customer group ids to filter by.
 
   - **Posted by**: *[@zakariaelas](https://github.com/zakariaelas)*
-  - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswaneflask-app.herokuapp.com%2F">
+  - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Fmedusa%2F1286">
   - **Standard**: *Non-paid*
   - **[Issue Link](https://github.com/medusajs/medusa/issues/1286)**
 
@@ -30,7 +30,7 @@ POST /admin/batch/:id/complete
   - [ ] Endpoint should not wait for the actual processing of the job to complete
 
  - **Posted by**: *[@srindom](https://github.com/srindom)*
- - **Status**: *Not Assigned*
+ - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Fmedusa%2F1277">
  - **Standard**: *Non-paid*
  - **[Issue Link](https://github.com/medusajs/medusa/issues/1277)**
 
@@ -49,7 +49,7 @@ POST /admin/batch/:id/cancel
  - [ ] Should call BatchJobService.cancel; which in turn potentially cancels the jobs in the worker that are currently being processed.
  
  - **Posted by**: *[@srindom](https://github.com/srindom)*
- - **Status**: *Not Assigned*
+ - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Fmedusa%2F1276">
  - **Standard**: *Non-paid*
  - **[Issue Link](https://github.com/medusajs/medusa/issues/1276)**
 
@@ -73,7 +73,7 @@ Response
  - [ ] calls `BatchJobService.listAndCount`
  
  - **Posted by**: *[@srindom](https://github.com/srindom)*
- - **Status**: *Not Assigned*
+ - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Fmedusa%2F1275">
  - **Standard**: *Non-paid*
  - **[Issue Link](https://github.com/medusajs/medusa/issues/1275)**
 
@@ -94,7 +94,7 @@ Response
  - [ ] if the authenticated user is not the creator of the batch job they should not be able to retrieve the job
  
  - **Posted by**: *[@srindom](https://github.com/srindom)*
- - **Status**: *Not Assigned*
+ - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Fmedusa%2F1274">
  - **Standard**: *Non-paid*
  - **[Issue Link](https://github.com/medusajs/medusa/issues/1274)**
 
