@@ -1,6 +1,6 @@
 ## BoxyHQ Enhancement Requests
 
-All of the enhancement and feature requests for *[Boxy](https://boxyhq.com/)* are listed here, and community can pick the ones they want to complete and be rewarded for completing them.
+All of the enhancement and feature requests for *[BoxyHQ](https://boxyhq.com/)* are listed here, and community can pick the ones they want to complete and be rewarded for completing them.
 
 ## Code Enhancement/Feature Requests
 ---
@@ -14,7 +14,7 @@ Need a way to check which version is running.
 Return the version in the health check endpoint.
 
   - **Posted by**: *[@deepakprabhakara](https://github.com/deepakprabhakara)*
-  - **Status**: *Not assigned*
+  - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Fboxyhq%2F142">
   - **Standard**: *Non-paid*
   - **[Issue Link](https://github.com/boxyhq/jackson/issues/142)**
 
@@ -33,7 +33,7 @@ Use qemu and buildx to build both architectures and push the images.
 How is cosign affected by this? We'll need to ensure signing is intact for both arch.
 
  - **Posted by**: *[@deepakprabhakara](https://github.com/deepakprabhakara)*
- - **Status**: *Not Assigned*
+ - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Fboxyhq%2F124">
  - **Standard**: *Non-paid*
  - **[Issue Link](https://github.com/boxyhq/jackson/issues/124)**
 
@@ -45,7 +45,7 @@ How is cosign affected by this? We'll need to ensure signing is intact for both 
 If email is not present then throw an error, it is very likely a bad SAML configuration. Also some providers do not provide an email by default unless the mapping is added.
  
  - **Posted by**: *[@deepakprabhakara](https://github.com/deepakprabhakara)*
- - **Status**: *Not Assigned*
+ - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Fboxyhq%2F116">
  - **Standard**: *Non-paid*
  - **[Issue Link](https://github.com/boxyhq/jackson/issues/116)**
 
@@ -57,7 +57,7 @@ If email is not present then throw an error, it is very likely a bad SAML config
 Add tracing via OpenTelemetry
  
  - **Posted by**: *[@deepakprabhakara](https://github.com/deepakprabhakara)*
- - **Status**: *Not Assigned*
+ - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Fboxyhq%2F112">
  - **Standard**: *Non-paid*
  - **[Issue Link](https://github.com/boxyhq/jackson/issues/112)**
 
@@ -72,7 +72,7 @@ SAML Identity Providers are mean to provide their own unique entityId but JumpCl
 Check if entityId already exists and then throw an error if the details don't match. Also provide instructions for providers like JumpCloud, entityId could be generated on the back of the tenant and product to keep it unique.
  
  - **Posted by**: *[@deepakprabhakara](https://github.com/deepakprabhakara)*
- - **Status**: *Not Assigned*
+ - <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Faviyel-request-board.herokuapp.com%2Fboxyhq%2F117">
  - **Standard**: *Non-paid*
  - **[Issue Link](https://github.com/boxyhq/jackson/issues/117)**
 
