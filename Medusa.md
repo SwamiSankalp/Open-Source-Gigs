@@ -78,3 +78,82 @@ Response
  - **[Issue Link](https://github.com/medusajs/medusa/issues/1275)**
 
 ---
+
+**5. API: Get a batch job**
+
+ Gets a BatchJob. This endpoint may be used for polling the status of a batch operation. To retrieve the BatchJob with id the authenticated user must be the user identified by `created_by`.
+
+```
+GET /admin/batch/:id
+
+Response
+- batch_job - { id, status, progress, ... }
+```
+**DoD**
+ - [ ] should respond with the correct batch job
+ - [ ] if the authenticated user is not the creator of the batch job they should not be able to retrieve the job
+ 
+ - **Posted by**: *[@srindom](https://github.com/srindom)*
+ - **Status**: *Not Assigned*
+ - **Standard**: *Non-paid*
+ - **[Issue Link](https://github.com/medusajs/medusa/issues/1274)**
+
+---
+
+## Non-Code Enhancement/Feature Requests
+---
+
+**1. Create an Ecommerce App with Medusa and React Native**
+
+Apps has been of long time interest, we are looking to do a cool write up on it but are no experts ourselves.
+
+  - **Posted by**: *MedusaJS*
+  - **Status**: *Not assigned*
+  - **Standard**: *Paid*
+  - **[Gig Link](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=73825e914cc440d0b5e2e942d9a291e4)**
+
+---
+
+**2. Integrate Medusa with x tool - a how-to guide**
+
+Please include a repo or build a real integration for it that we can share along with the article.
+
+  - **Posted by**: *MedusaJS*
+  - **Status**: *Not assigned*
+  - **Standard**: *Paid*
+  - **[Gig Link](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=d17936d35e9441e9b95aec752bab638f)**
+
+---
+
+**3. Create an iOS Ecommerce App with Medusa**
+
+Most people shop on their phones, so it’s important to have an app for your store. Due to Medusa’s headless architecture, it should be as easy as creating a website!
+
+  - **Posted by**: *MedusaJS*
+  - **Status**: *Not assigned*
+  - **Standard**: *Paid*
+  - **[Gig Link](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=054a101c3b614daca6c1445c52c830fa)**
+
+---
+
+**4. Create an Android Ecommerce App with Medusa**
+
+Flutter is a popular cross-platform framework that many love and use. This tutorial will help them learn how to create an ecommerce app using flutter and Medusa.
+
+  - **Posted by**: *MedusaJS*
+  - **Status**: *Not assigned*
+  - **Standard**: *Paid*
+  - **[Gig Link](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=ac865d4ce2ff42d4934ee4c22a8c4619)**
+
+---
+
+**5. Create an Ecommerce App with Flutter and Medusa**
+
+Apps has been of long time interest, we are looking to do a cool write up on it but are no experts ourselves.
+
+  - **Posted by**: *MedusaJS*
+  - **Status**: *Not assigned*
+  - **Standard**: *Paid*
+  - **[Gig Link](https://medusajs.notion.site/Topics-2653fe684b1a4640b94e253f1d6bc3d9?p=73825e914cc440d0b5e2e942d9a291e4)**
+
+---
