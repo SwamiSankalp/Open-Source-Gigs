@@ -21,5 +21,5 @@ More information can be found on this [link](https://aviyel.com/projects/7/mobil
 ![Medusa](https://aviyel.com/cdn-cgi/image/width=56,format=auto/assets/uploads/static/medusa.png)
 
 The Open Source shopify alternative. Medusa is an open-source headless commerce platform. Use our building blocks and customize your setup in any way you want. More information can be found on this [link](https://aviyel.com/projects/10/medusa).
-- All of the issues for Medusa are listed on this [page](https://github.com/SwamiSankalp/Open-Source-Gigs/blob/main/Medusa.md), where you can pick them up and work on them.
+- All of the issues for Medusa are listed on this [page](https://github.com/SwamiSankalp/Open-Source-Gigs/blob/main/medusa.md), where you can pick them up and work on them.
 - You can find FAQs for MobSF on this [link](https://aviyel.com/projects/10/medusa/questions).
