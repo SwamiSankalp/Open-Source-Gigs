@@ -2,6 +2,8 @@
 
 All of the enhancement and feature requests for *[BoxyHQ](https://boxyhq.com/)* are listed here, and community can pick the ones they want to complete and be rewarded for completing them.
 
+## Index
+
 1. [Code Enhancement/Feature Requests](#code-enhancementfeature-requests)
     - [Return version in health check endpoint](#1-return-version-in-health-check-endpoint)
     - [Build docker image for arm64](#2-build-docker-image-for-arm64)
