@@ -2,10 +2,19 @@
 
 Enhancement and feature requests for *[MobSF](https://mobsf.github.io/docs/)* are listed here, and community can pick the ones they want to complete and be rewarded for completing them.
 
+## Index
+
+1. [Code Enhancement/Feature Requests](#code-enhancementfeature-requests)
+    - [CSS file loading fail in China](#1-css-file-loading-fail-in-china)
+    - [Find API keys/secrets by matching regex](#2-find-api-keyssecrets-by-matching-regex)
+    - [browse all files](#3-browse-all-files)
+    - [Split settings.py](#4-split-settingspy)
+    - [Sticky horizontal scrollbar in code/xml views](#5-sticky-horizontal-scrollbar-in-codexml-views)
+
 ## Code Enhancement/Feature Requests
 ---
 
-**1. CSS file loading fail in China**
+### **1. CSS file loading fail in China**
 
 the page loading time is more than 15 seconds.
 Because live-in China users do not access `fonts.googleapi.com` site.
@@ -18,7 +27,7 @@ Could we put the font file in the code repository or use CDN?
 
 ---
 
-**2. Find API keys/secrets by matching regex**
+### **2. Find API keys/secrets by matching regex**
 
 
 **If you're requesting a new feature/enhancement, explain why you'd like it to be added and it's importance.**
@@ -41,7 +50,7 @@ I currently use my program called dora but if MobSF had this inbuilt, it would b
 
 ---
 
-**3. browse all files**
+### **3. browse all files**
 
  
 **Is your feature request related to a problem? Please describe**.
@@ -57,7 +66,7 @@ Allow the browser access all sorts of files
 
 ---
 
-**4. Split settings.py**
+### **4. Split settings.py**
 
  
 **If you're requesting a new feature/enhancement, explain why you'd like it to be added and it's importance.**
@@ -84,7 +93,7 @@ Django wiki about splitting settings: https://code.djangoproject.com/wiki/SplitS
 
 ---
 
-**5. Sticky horizontal scrollbar in code/xml views**
+### **5. Sticky horizontal scrollbar in code/xml views**
 
 
 **Is your feature request related to a problem? Please describe.**
