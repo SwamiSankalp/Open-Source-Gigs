@@ -22,4 +22,20 @@ More information can be found on this [link](https://aviyel.com/projects/7/mobil
 
 The Open Source shopify alternative. Medusa is an open-source headless commerce platform. Use our building blocks and customize your setup in any way you want. More information can be found on this [link](https://aviyel.com/projects/10/medusa).
 - All of the issues for Medusa are listed on this [page](https://github.com/SwamiSankalp/Open-Source-Gigs/blob/main/medusa.md), where you can pick them up and work on them.
-- You can find FAQs for MobSF on this [link](https://aviyel.com/projects/10/medusa/questions).
+- You can find FAQs for Medusa on this [link](https://aviyel.com/projects/10/medusa/questions).
+
+## 3. **BoxyHQ**
+
+![BoxyHQ](https://aviyel.com/cdn-cgi/image/width=56,format=auto/assets/uploads/static/boxyhq.png)
+
+BoxyHQ helps startups enable enterprise features in any SaaS app with just a few lines of code. Integrate SAML, Audit Logs, Privacy Vault and Role Based Access in minutes. Open source and free. The [project roadmap](https://github.com/orgs/boxyhq/projects/3) is available publicly. More information can be found on this [link](https://aviyel.com/projects/11/boxyhq).
+- All of the issues for BoxyHQ are listed on this [page](https://github.com/SwamiSankalp/Open-Source-Gigs/blob/main/boxyhq.md), where you can pick them up and work on them.
+- You can find FAQs for BoxyHQ on this [link](https://aviyel.com/projects/11/boxyhq/questions).
+
+## 4. **Typesense**
+
+![Typesense](https://aviyel.com/cdn-cgi/image/width=56,format=auto/https://github.com/typesense.png)
+
+Typesense is a fast, typo-tolerant search engine for building delightful search experiences. An Open Source Algolia Alternative & An Easier-to-Use ElasticSearch Alternative. More information can be found on this [link](https://aviyel.com/projects/8/typesense).
+- All of the issues for Typesense are listed on this [page](https://github.com/SwamiSankalp/Open-Source-Gigs/blob/main/typesense.md), where you can pick them up and work on them.
+- You can find FAQs for Typesense on this [link](https://aviyel.com/projects/8/typesense/questions).
