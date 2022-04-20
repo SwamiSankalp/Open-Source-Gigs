@@ -2,10 +2,20 @@
 
 Enhancement and feature requests for *[Typesense](https://typesense.org/)* are listed here, and community can pick the ones they want to complete and be rewarded for completing them.
 
+## Index
+
+1. [Code Enhancement/Feature Requests](#code-enhancementfeature-requests)
+    - [Unable to use negation filter to integer field](#1-unable-to-use-negation-filter-to-integer-field)
+    - [Ability to apply filters to overrides and pinned hits](#2-ability-to-apply-filters-to-overrides-and-pinned-hits)
+    - [Curation API and filters](#3-curation-api-and-filters)
+    - [Ranking based on Relevance and Popularity connected to Override](#4-ranking-based-on-relevance-and-popularity-connected-to-override)
+    - [Default Value When Optional = "True"](#5-default-value-when-optional--true)
+
+
 ## Code Enhancement/Feature Requests
 ---
 
-**1. Unable to use negation filter to integer field.**
+### **1. Unable to use negation filter to integer field.**
 
 
 **Description**
@@ -38,7 +48,7 @@ Ubuntu 20.04
 
 ---
 
-**2. Ability to apply filters to overrides and pinned hits**
+### **2. Ability to apply filters to overrides and pinned hits**
 
 This feature allows curated / pinned hits to only be triggered if the pinned hit satisfies the current filter_by query. Available in `0.23.0.rc45`.
 
@@ -68,7 +78,7 @@ curl "http://localhost:8108/collections/products/documents/search?q=apple&query_
 
 ---
 
-**3. Curation API and filters**
+### **3. Curation API and filters**
 
 When curating documents it does not seem to be possible to set rules for filter_by values of the search.
 
@@ -81,7 +91,7 @@ For example we would like to curate different document for search `search?q=hamb
 
 ---
 
-**4. Ranking based on Relevance and Popularity connected to Override**
+### **4. Ranking based on Relevance and Popularity connected to Override**
 
  
 If the user searches "environmentally friendly cotton t-shirts". I want to be able to re-rank the results to boost the more environmentally friendly products. (perhaps using sort_by with buckets)
@@ -108,7 +118,7 @@ Apply overrides to an entire product category in combination with a query. So if
 
 ---
 
-**5. Default Value When Optional = "True"**
+### **5. Default Value When Optional = "True"**
 
 
 **Description**
