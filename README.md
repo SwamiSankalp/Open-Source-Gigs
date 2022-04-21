@@ -11,7 +11,7 @@ To learn more about the projects, visit their about page. We also have an exhaus
 
 ![MobSF](https://aviyel.com/cdn-cgi/image/width=80,format=auto/https://github.com/MobSF.png)
 
-MobSF is an automated, all-in-pne mobile application (Android/iOS/Windows) pentesting, malware analysis and security assessment framework capable of performing static & dynamic analysis. 
+MobSF is an automated, all-in-one mobile application (Android/iOS/Windows) pentesting, malware analysis and security assessment framework capable of performing static & dynamic analysis. 
 More information can be found on this [link](https://aviyel.com/projects/7/mobile-security-framework).
 - All of the issues for MobSF are listed on this [page](https://github.com/SwamiSankalp/Open-Source-Gigs/blob/main/mobsf.md), where you can pick them up and work on them.
 - You can find FAQs for MobSF on this [link](https://aviyel.com/projects/7/mobile-security-framework/questions).
